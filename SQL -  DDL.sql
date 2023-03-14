@@ -53,9 +53,9 @@ CREATE TABLE Cometas (
 /*criação de uma tabela de astronomos*/
 CREATE TABLE Astronomos (
     id INT PRIMARY KEY,
-    nome VARCHAR(255),
-    sobrenome VARCHAR(255),
-    pais VARCHAR(255),
+    nome VARCHAR(45),
+    sobrenome VARCHAR(45),
+    pais VARCHAR(45),
     data_nascimento DATE,
     especialidade VARCHAR(255)
 );
